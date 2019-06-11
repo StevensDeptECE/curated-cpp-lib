@@ -1,0 +1,7 @@
+MAIN	:= `pwd`
+
+all:
+	cd bzip2-1.0.6; make ; cp *.a $(MAIN)/libs
+
+	cd FLIF/src ; make ; cp *.a (MAIN)/libs
+	cd freetype-2.9 ; make ; cp *
