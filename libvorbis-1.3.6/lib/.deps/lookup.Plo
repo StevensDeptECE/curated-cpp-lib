@@ -18,8 +18,8 @@ lookup.lo: lookup.c /usr/include/stdc-predef.h /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
  /usr/include/x86_64-linux-gnu/bits/mathinline.h \
  /usr/include/x86_64-linux-gnu/bits/math-finite.h lookup.h lookup_data.h \
- os.h ../config.h /usr/local/include/ogg/os_types.h \
- /usr/local/include/ogg/config_types.h /usr/include/inttypes.h \
+ os.h ../config.h /usr/include/ogg/os_types.h \
+ /usr/include/ogg/config_types.h /usr/include/inttypes.h \
  /usr/lib/gcc/x86_64-linux-gnu/8/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
@@ -43,8 +43,8 @@ lookup.lo: lookup.c /usr/include/stdc-predef.h /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h misc.h \
- ../include/vorbis/codec.h /usr/local/include/ogg/ogg.h \
- /usr/include/alloca.h /usr/include/memory.h /usr/include/string.h \
+ ../include/vorbis/codec.h /usr/include/ogg/ogg.h /usr/include/alloca.h \
+ /usr/include/memory.h /usr/include/string.h \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
  /usr/include/strings.h \
@@ -112,9 +112,9 @@ os.h:
 
 ../config.h:
 
-/usr/local/include/ogg/os_types.h:
+/usr/include/ogg/os_types.h:
 
-/usr/local/include/ogg/config_types.h:
+/usr/include/ogg/config_types.h:
 
 /usr/include/inttypes.h:
 
@@ -172,7 +172,7 @@ misc.h:
 
 ../include/vorbis/codec.h:
 
-/usr/local/include/ogg/ogg.h:
+/usr/include/ogg/ogg.h:
 
 /usr/include/alloca.h:
 

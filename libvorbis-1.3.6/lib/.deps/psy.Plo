@@ -49,8 +49,8 @@ psy.lo: psy.c /usr/include/stdc-predef.h /usr/include/stdlib.h \
  /usr/include/strings.h \
  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
- ../include/vorbis/codec.h /usr/local/include/ogg/ogg.h \
- /usr/local/include/ogg/os_types.h /usr/local/include/ogg/config_types.h \
+ ../include/vorbis/codec.h /usr/include/ogg/ogg.h \
+ /usr/include/ogg/os_types.h /usr/include/ogg/config_types.h \
  /usr/include/inttypes.h /usr/lib/gcc/x86_64-linux-gnu/8/include/stdint.h \
  /usr/include/stdint.h /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h codec_internal.h \
@@ -187,11 +187,11 @@ psy.lo: psy.c /usr/include/stdc-predef.h /usr/include/stdlib.h \
 
 ../include/vorbis/codec.h:
 
-/usr/local/include/ogg/ogg.h:
+/usr/include/ogg/ogg.h:
 
-/usr/local/include/ogg/os_types.h:
+/usr/include/ogg/os_types.h:
 
-/usr/local/include/ogg/config_types.h:
+/usr/include/ogg/config_types.h:
 
 /usr/include/inttypes.h:
 

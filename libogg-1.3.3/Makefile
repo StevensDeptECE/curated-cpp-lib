@@ -243,11 +243,11 @@ AUTOMAKE = ${SHELL} /home/dkruger/git/proj/curated-cpp-lib/libogg-1.3.3/missing 
 AWK = mawk
 CC = gcc
 CCDEPMODE = depmode=gcc3
-CFLAGS = -O20 -Wall -march=native -ffast-math -fsigned-char -g -O2
+CFLAGS = -O20 -Wall -ffast-math -fsigned-char -g -O2
 CPP = gcc -E
 CPPFLAGS = 
 CYGPATH_W = echo
-DEBUG = -g -Wall  -march=native -fsigned-char -g -O2
+DEBUG = -g -Wall -fsigned-char -g -O2
 DEFS = -DHAVE_CONFIG_H
 DEPDIR = .deps
 DLLTOOL = false

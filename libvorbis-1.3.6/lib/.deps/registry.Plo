@@ -1,7 +1,7 @@
 registry.lo: registry.c /usr/include/stdc-predef.h \
- ../include/vorbis/codec.h /usr/local/include/ogg/ogg.h \
+ ../include/vorbis/codec.h /usr/include/ogg/ogg.h \
  /usr/lib/gcc/x86_64-linux-gnu/8/include/stddef.h \
- /usr/local/include/ogg/os_types.h /usr/local/include/ogg/config_types.h \
+ /usr/include/ogg/os_types.h /usr/include/ogg/config_types.h \
  /usr/include/inttypes.h /usr/include/features.h \
  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -66,13 +66,13 @@ registry.lo: registry.c /usr/include/stdc-predef.h \
 
 ../include/vorbis/codec.h:
 
-/usr/local/include/ogg/ogg.h:
+/usr/include/ogg/ogg.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/8/include/stddef.h:
 
-/usr/local/include/ogg/os_types.h:
+/usr/include/ogg/os_types.h:
 
-/usr/local/include/ogg/config_types.h:
+/usr/include/ogg/config_types.h:
 
 /usr/include/inttypes.h:
 

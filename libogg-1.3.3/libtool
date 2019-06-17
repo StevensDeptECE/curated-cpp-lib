@@ -1,6 +1,6 @@
 #! /bin/bash
 # Generated automatically by config.status (libogg) 1.3.3
-# Libtool was configured on host ari2:
+# Libtool was configured on host uber:
 # NOTE: Changes made to this file will be lost: look at ltmain.sh.
 
 # Provide generalized library-building support services.

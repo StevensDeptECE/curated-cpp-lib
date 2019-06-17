@@ -49,12 +49,11 @@ lpc.lo: lpc.c /usr/include/stdc-predef.h /usr/include/stdlib.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
  /usr/include/x86_64-linux-gnu/bits/mathinline.h \
  /usr/include/x86_64-linux-gnu/bits/math-finite.h os.h ../config.h \
- /usr/local/include/ogg/os_types.h /usr/local/include/ogg/config_types.h \
+ /usr/include/ogg/os_types.h /usr/include/ogg/config_types.h \
  /usr/include/inttypes.h /usr/lib/gcc/x86_64-linux-gnu/8/include/stdint.h \
  /usr/include/stdint.h /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h misc.h \
- ../include/vorbis/codec.h /usr/local/include/ogg/ogg.h \
- /usr/include/memory.h \
+ ../include/vorbis/codec.h /usr/include/ogg/ogg.h /usr/include/memory.h \
  /usr/lib/gcc/x86_64-linux-gnu/8/include/emmintrin.h \
  /usr/lib/gcc/x86_64-linux-gnu/8/include/xmmintrin.h \
  /usr/lib/gcc/x86_64-linux-gnu/8/include/mmintrin.h \
@@ -177,9 +176,9 @@ os.h:
 
 ../config.h:
 
-/usr/local/include/ogg/os_types.h:
+/usr/include/ogg/os_types.h:
 
-/usr/local/include/ogg/config_types.h:
+/usr/include/ogg/config_types.h:
 
 /usr/include/inttypes.h:
 
@@ -195,7 +194,7 @@ misc.h:
 
 ../include/vorbis/codec.h:
 
-/usr/local/include/ogg/ogg.h:
+/usr/include/ogg/ogg.h:
 
 /usr/include/memory.h:
 

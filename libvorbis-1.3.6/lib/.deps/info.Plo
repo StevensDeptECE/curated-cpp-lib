@@ -40,10 +40,10 @@ info.lo: info.c /usr/include/stdc-predef.h /usr/include/stdlib.h \
  /usr/include/strings.h \
  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
- /usr/include/ctype.h /usr/local/include/ogg/ogg.h \
- /usr/local/include/ogg/os_types.h /usr/local/include/ogg/config_types.h \
- /usr/include/inttypes.h /usr/lib/gcc/x86_64-linux-gnu/8/include/stdint.h \
- /usr/include/stdint.h /usr/include/x86_64-linux-gnu/bits/wchar.h \
+ /usr/include/ctype.h /usr/include/ogg/ogg.h /usr/include/ogg/os_types.h \
+ /usr/include/ogg/config_types.h /usr/include/inttypes.h \
+ /usr/lib/gcc/x86_64-linux-gnu/8/include/stdint.h /usr/include/stdint.h \
+ /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
  ../include/vorbis/codec.h codec_internal.h envelope.h mdct.h codebook.h \
  psy.h smallft.h backends.h bitrate.h os.h ../config.h \
@@ -157,11 +157,11 @@ info.lo: info.c /usr/include/stdc-predef.h /usr/include/stdlib.h \
 
 /usr/include/ctype.h:
 
-/usr/local/include/ogg/ogg.h:
+/usr/include/ogg/ogg.h:
 
-/usr/local/include/ogg/os_types.h:
+/usr/include/ogg/os_types.h:
 
-/usr/local/include/ogg/config_types.h:
+/usr/include/ogg/config_types.h:
 
 /usr/include/inttypes.h:
 
