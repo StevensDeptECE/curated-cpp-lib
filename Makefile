@@ -1,6 +1,6 @@
 MAIN	:= ${CURDIR}
 
-all:	openssl # bzip2 flif freetype
+all:	openssl  bzip2 flif freetype libogg.a libvorbis.a
 
 
 openssl:
@@ -14,3 +14,12 @@ flif:
 
 freetype:
 	cd freetype-2.9 ; make ; cp objs/*.o $(MAIN)/objs/freetype ; cp objs/*.a $(MAIN)/libs
+=======
+
+
+libs/libogg.a:
+	cd libogg-1.3.3 ; make ; cp src/.libs/libogg.a ../libs
+
+libs/libvorbis.a:
+	cd libvorbis-1.3.6 ; make ; cp lib/.libs/libvorbis.a ../libs
+
